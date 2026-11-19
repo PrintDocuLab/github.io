@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pliki do pobrania</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+    background-color: #212121;
+    color: #eeeeee;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.download-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 18px;
+    margin-bottom: 18px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+}
+
+.download-item img {
+    width: 190px;
+    height: auto;
+    max-height: 250px;
+    object-fit: contain;
+    border-radius: 7px;
+    flex-shrink: 0;
+}
+
+.download-content {
+    flex: 1;
+}
+
+.download-content p {
+    margin: 0 0 16px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #d1d1d1;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 9px 20px;
+    background-color: #3b82f6;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.download-btn:hover {
+    background-color: #2563eb;
+}
+
+/* Wersja mobilna */
+@media (max-width: 600px) {
+    body {
+        padding: 20px 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .download-item {
+        flex-direction: column;
+        gap: 12px;
+        padding: 14px;
+    }
+
+    .download-item img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .download-content p {
+        font-size: 14px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Pliki do pobrania</h1>
+
+    <!-- BLOK 1 -->
+    <div class="download-item">
+        <img src="image/pdfinspektor.png" alt="Zdjęcie 1">
+        <div class="download-content">
+            <p>
+                <b>Program PrintPDF In&shy;spe&shy;ktor</b><br/>
+				Wery&shy;fi&shy;kuje popra&shy;wno&shy;ść pli&shy;ków PDF przez&shy;na&shy;czo&shy;nych do druku. 
+				Spraw&shy;dza roz&shy;dziel&shy;czość, model kolo&shy;rów, limi&shy;ty nafar&shy;bie&shy;nia
+				TAC dla papie&shy;rów powle&shy;ka&shy;nych i&nbsp;gaze&shy;to&shy;wych, obe&shy;cność zbyt ma&shy;łych na&shy;pisów,
+				i&nbsp;cien&shy;kich lini, bia&shy;łe ele&shy;men&shy;ty z&nbsp;na&shy;da&shy;nym atry&shy;bu&shy;tem over&shy;print
+				oraz ko&shy;lo&shy;rów do&shy;dat&shy;ko&shy;wych PANTONE.
+				Poka&shy;zu&shy;je ra&shy;port teksto&shy;wy oraz two&shy;rzy pliki pdf
+				z&nbsp;za&shy;zna&shy;czo&shy;nymi w/w ele&shy;mentami które nie speł&shy;nia&shy;ją wy&shy;ma&shy;gań dru&shy;ku.
+            </p>
+            <a href="https://github.com/loovbe/moje-narzedzia/releases/download/v1.0/PrintPDF_Inspector.zip" class="download-btn" download>Pobierz</a>
+			<a href="https://github.com/loovbe/moje-narzedzia/releases/download/v1.0/PrintPDF_Inspector_zrodla_licencje.zip" class="download-btn" download>Pobierz - Źródła I Licencje</a>
+        </div>
+    </div>
+
+    <!-- BLOK 2 -->
+    <div class="download-item">
+        <img src="image/lamacz.png" alt="Zdjęcie 2">
+        <div class="download-content">
+            <p>
+                <b>POLSKI ŁAMACZ</b><br/>
+				Pro­sty pro­gram dla Win­dows (bez ko­niecz­no­ści in­sta­la­cji),
+				któ­ry au­to­ma­tycz­nie wpro­wa­dza nie­wi­docz­ne zna­ki
+				po­dzia­łu wy­ra­zów zgod­ne z za­sa­da­mi ję­zy­ka pol­skie­go.
+				Któ­re są ak­ty­wo­wa­ne ja­ko wi­docz­ne na koń­cach li­ni w pro­gra­mach
+				Word, DesignCraft, Scri­bus, Qu­ar­kXpress, oraz w html (przy­dat­ne przy ska­lo­wal­nych stro­nach na te­le­fo­nach itp.)
+				omi­ja­jąc brak funk­cji dzie­le­nia wy­ra­zów w pro­gra­mach lub brak po­praw­ne­go dzie­le­nia.<br /><br />
+				Wsta­wia twar­de spa­cje:
+				Wią­że „wi­szą­ce spój­ni­ki” (a,&nbsp;i,&nbsp;o,&nbsp;u,&nbsp;w,&nbsp;z),
+				skró­ty (mgr,&nbsp;prof.,&nbsp;str.,&nbsp;r.)
+				oraz licz­by z jed­nost­ka­mi (15&nbsp;kg, 100&nbsp;zł, 99&nbsp;%),
+				aby nie roz­ry­wa­ło ich na koń­cach wier­szy.<br/><br/>
+				Umoż­li­wia też do­da­nie wy­jąt­ków od dzie­le­nia.
+				Pra­cu­je na pli­kach "docx i txt"
+            </p>
+            <a href="https://github.com/loovbe/moje-narzedzia/releases/download/v1.0/POLSKILamacz.zip" class="download-btn" download>Pobierz</a>
+        </div>
+    </div>
+
+    <!-- BLOK 3 -->
+    <div class="download-item">
+        <img src="image/separator.png" alt="Zdjęcie 3">
+        <div class="download-content">
+            <p>
+                <b>PDF Separator PL</b><br/>
+                Pro­gram ge­ne­ru­je pod­gląd spe­pa­ra­cji ko­lo­ry­stycz­nych z kom­po­zy­to­wych pli­ków pdf.
+                Uwzględ­nia ko­lo­ry CMYK, PANTONE oraz over­print.
+            </p>
+            <a href="pliki/plik3.pdf" class="download-btn" download>Pobierz</a>
+        </div>
+    </div>
+
+    <!-- BLOK 4 -->
+    <div class="download-item">
+        <img src="image/arch.png" alt="Zdjęcie 4">
+        <div class="download-content">
+            <p>
+                <b>ARCHIWIZATOR PROJEKTÓW 1.0 PL</b><br/>
+                Pro­sty pro­gram dla Win­dows (bez ko­niecz­no­ści in­sta­la­cji), 
+któ­ry po­ma­ga upo­rząd­ko­wać fol­de­ry ro­bo­cze
+i prze­no­si star­sze wer­sje tych sa­mych pro­jek­tów do ar­chi­wum. 
+Roz­wią­zu­je pro­blem z wer­sja­mi pro­jek­tów: plik_osta­tecz­ny, ko­pia1, 
+ko­pia­do­wy­sla­nia2, po­praw­ka, v1, v2 itp.
+jak w po­zo­sta­łych ele­men­tach.
+            </p>
+            <a href="https://github.com/loovbe/moje-narzedzia/releases/download/v1.0/programArchiwizator.zip" class="download-btn" download>Pobierz</a>
+        </div>
+    </div>
+
+    <!-- BLOK 5 -->
+    <div class="download-item">
+        <img src="image/typo.png" alt="Zdjęcie 5">
+        <div class="download-content">
+            <p>
+                <b>TYPOKOREKTOR 3.30 PL</b><br/>
+                Pro­sty pro­gram dla Win­dows (bez ko­niecz­no­ści in­sta­la­cji), któ­ry au­to­ma­tycz­nie przy­go­to­wu­je do­ku­men­ty Word (.docx)
+                do skła­du zgod­nie z za­sa­da­mi pol­skiej ty­po­gra­fii.<br/><br/>
+                CO DOKŁADNIE ROBI:<br />
+                Czy­ści tekst:
+                Usu­wa nad­mia­ro­we pu­ste wier­sze
+                oraz skle­ja wy­ra­zy roz­bi­te prze­nie­sie­niem li­nii.<br/><br/>
+                Wsta­wia twar­de spa­cje:
+                Wią­że „wi­szą­ce spój­ni­ki” (a,&nbsp;i,&nbsp;o,&nbsp;u,&nbsp;w,&nbsp;z),
+                skró­ty (mgr,&nbsp;prof.,&nbsp;str.,&nbsp;r.)
+                oraz licz­by z jed­nost­ka­mi (15&nbsp;kg, 100&nbsp;zł, 99&nbsp;%),
+                aby nie roz­ry­wa­ło ich na koń­cach wier­szy.<br/><br/>
+                Po­pra­wia in­ter­punk­cję i zna­ki:
+                Usu­wa wie­lo­krot­ne spa­cje,
+                za­mie­nia cu­dzy­sło­wy pro­ste na pol­skie dru­kar­skie („&nbsp;”),
+                po­pra­wia spa­cje przy na­wia­sach oraz ujed­no­li­ca myśl­ni­ki do pół­pauz (&nbsp;–&nbsp;).
+                Ostrze­ga o nie­do­mknię­tych na­wia­sach lub cu­dzy­sło­wach
+                i za­wsze za­pi­su­je wy­nik ja­ko no­wy plik (_Oczysz­czo­ny.docx),
+                link do do­ku­men­tu lub in­ne­go pli­ku.
+            </p>
+            <a href="https://github.com/loovbe/moje-narzedzia/releases/download/v1.0/programTypoKorektor.zip" class="download-btn" download>Pobierz</a>
+        </div>
+    </div>
+<!-- BLOK 6 -->
+    <div class="download-item">
+        <img src="image/tospot.png" alt="Zdjęcie 6">
+        <div class="download-content">
+            <p>
+                <b>bitmap2spotpdf</b><br/>
+                Pro­gram za­mie­nia zdję­cia RGB, CMYK, Grayscale na pdf z jedno­czes­ną ich kolo­ry­za­cją na je­den kolor zde­fi­nio­wa­ny w pdf jako „/Sepa­ra­tion /PANTONE”.			
+            </p>
+            <a href="https://github.com/loovbe/moje-narzedzia/releases/download/v1.0/bitmap2spotpdf.zip" class="download-btn" download>Pobierz</a>
+        </div>
+    </div>
+	WSKAZÓWKA PRZY PIERWSZYM URUCHOMIENIU:
+<p>
+Ponieważ są to autorskie programy bez płatnego certyfikatu Microsoftu, system Windows może wyświetlić komunikat „System Windows ochronił ten komputer”. Aby uruchomić program, kliknij „Więcej informacji”, a następnie „Uruchom mimo to”. </br>*Programy są darmowe*</p>
+</div>
+
+</body>
+</html>
