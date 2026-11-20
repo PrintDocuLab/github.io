@@ -15,6 +15,7 @@ body {
     margin: 0;
     padding: 30px 15px;
     font-family: Arial, sans-serif;
+	font-size: 16px;
     background-color: #212121;
     color: #eeeeee;
 }
@@ -29,6 +30,10 @@ h1 {
     font-weight: 600;
     margin-bottom: 30px;
     color: #ffffff;
+}
+
+.wiekszy-tekst {
+  font-size: calc(1em + 5px);
 }
 
 .download-item {
@@ -56,7 +61,8 @@ h1 {
 
 .download-content p {
     margin: 0 0 16px;
-    font-size: 15px;
+    font-size: 19px;
+	text-align: left;
     line-height: 1.6;
     color: #d1d1d1;
 }
@@ -85,6 +91,10 @@ h1 {
     h1 {
         font-size: 24px;
     }
+	
+	h2 {
+        font-size: 22px;
+    }
 
     .download-item {
         flex-direction: column;
@@ -98,7 +108,7 @@ h1 {
     }
 
     .download-content p {
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 </style>
@@ -115,7 +125,7 @@ h1 {
         <img src="image/pdfinspektor.png" alt="Zdjęcie 1">
         <div class="download-content">
             <p>
-                <b>Program PrintPDF In&shy;spe&shy;ktor</b><br/>
+                <span class="wiekszy-tekst"><b>Program PrintPDF In&shy;spe&shy;ktor</b></span><br/>
 				Wery&shy;fi&shy;kuje popra&shy;wno&shy;ść pli&shy;ków PDF przez&shy;na&shy;czo&shy;nych do druku. 
 				Spraw&shy;dza roz&shy;dziel&shy;czość, model kolo&shy;rów, limi&shy;ty nafar&shy;bie&shy;nia
 				TAC dla papie&shy;rów powle&shy;ka&shy;nych i&nbsp;gaze&shy;to&shy;wych, obe&shy;cność zbyt ma&shy;łych na&shy;pisów,
@@ -134,7 +144,7 @@ h1 {
         <img src="image/lamacz.png" alt="Zdjęcie 2">
         <div class="download-content">
             <p>
-                <b>POLSKI ŁAMACZ</b><br/>
+                <span class="wiekszy-tekst"><b>POLSKI ŁAMACZ</b></span><br/>
 				Pro­sty pro­gram dla Win­dows (bez ko­niecz­no­ści in­sta­la­cji),
 				któ­ry au­to­ma­tycz­nie wpro­wa­dza nie­wi­docz­ne zna­ki
 				po­dzia­łu wy­ra­zów zgod­ne z za­sa­da­mi ję­zy­ka pol­skie­go.
@@ -158,11 +168,12 @@ h1 {
         <img src="image/separator.png" alt="Zdjęcie 3">
         <div class="download-content">
             <p>
-                <b>PDF Separator PL (w budowie)</b><br/>
+                <span class="wiekszy-tekst"><b>PDF Separator PL (w budowie)</b></span><br/>
                 Pro­gram ge­ne­ru­je pod­gląd se­pa­ra­cji ko­lo­ry­stycz­nych z kom­po­zy­to­wych pli­ków pdf.
                 Uwzględ­nia ko­lo­ry CMYK, PANTONE oraz over­print.
             </p>
             <a href="pliki/plik3.pdf" class="download-btn" download>Pobierz</a>
+			<a href="pliki/plik3.pdf" class="download-btn" download>Pobierz - Źródła I Licencje</a>
         </div>
     </div>
 
@@ -171,7 +182,7 @@ h1 {
         <img src="image/arch.png" alt="Zdjęcie 4">
         <div class="download-content">
             <p>
-                <b>ARCHIWIZATOR PROJEKTÓW 1.0 PL</b><br/>
+                <span class="wiekszy-tekst"><b>ARCHIWIZATOR PROJEKTÓW 1.0 PL</b></span><br/>
                 Pro­sty pro­gram dla Win­dows (bez ko­niecz­no­ści in­sta­la­cji), 
 któ­ry po­ma­ga upo­rząd­ko­wać fol­de­ry ro­bo­cze
 i prze­no­si star­sze wer­sje tych sa­mych pro­jek­tów do ar­chi­wum. 
@@ -188,7 +199,7 @@ jak w po­zo­sta­łych ele­men­tach.
         <img src="image/typo.png" alt="Zdjęcie 5">
         <div class="download-content">
             <p>
-                <b>TYPOKOREKTOR 3.30 PL</b><br/>
+                <span class="wiekszy-tekst"><b>TYPOKOREKTOR 3.30 PL</b></span><br/>
                 Pro­sty pro­gram dla Win­dows (bez ko­niecz­no­ści in­sta­la­cji), któ­ry au­to­ma­tycz­nie przy­go­to­wu­je do­ku­men­ty Word (.docx)
                 do skła­du zgod­nie z za­sa­da­mi pol­skiej ty­po­gra­fii.<br/><br/>
                 CO DOKŁADNIE ROBI:<br />
@@ -216,7 +227,7 @@ jak w po­zo­sta­łych ele­men­tach.
         <img src="image/tospot.png" alt="Zdjęcie 6">
         <div class="download-content">
             <p>
-                <b>bitmap2spotpdf</b><br/>
+                <span class="wiekszy-tekst"><b>bitmap2spotpdf</b></span><br/>
                 Pro­gram za­mie­nia zdję­cia RGB, CMYK, Grayscale na pdf z jedno­czes­ną ich kolo­ry­za­cją na je­den kolor zde­fi­nio­wa­ny w pdf jako „/Sepa­ra­tion /PANTONE”.			
             </p>
             <a href="https://github.com/loovbe/moje-narzedzia/releases/download/v1.0/bitmap2spotpdf.zip" class="download-btn" download>Pobierz</a>
