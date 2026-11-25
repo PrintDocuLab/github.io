@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 400 160" height="218pt" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="825pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        svg { background-color: transparent; }
+        .linia {
+            fill: none;
+            stroke-width: 4;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-dasharray: 100;
+            stroke-dashoffset: 100;
+            animation: rysujWstege 3.5s ease-in-out infinite;
+        }
+        .cyjan   { stroke: #009ee3; animation-delay: 0.0s; }
+        .magenta { stroke: #e5007b; animation-delay: 0.2s; }
+        .zolty   { stroke: #fecb00; animation-delay: 0.4s; }
+        .rolka {
+            fill: none;
+            stroke: #4b4949;
+            stroke-width: 2;
+            stroke-dasharray: 100;
+            stroke-dashoffset: 100;
+            animation: rysujWstege 3.5s ease-out infinite;
+        }
+        @keyframes rysujWstege {
+            0% { stroke-dashoffset: 100; }
+            45%, 80% { stroke-dashoffset: 0; }
+            100% { stroke-dashoffset: -100; }
+        }
+    </style>
+    <circle class="rolka" cx="130" cy="55" r="16" pathLength="100" />
+    <circle class="rolka" cx="270" cy="105" r="16" pathLength="100" />
+    <path class="linia cyjan"   pathLength="100" d="M 30,110 C 90,110 90,30 150,30 C 210,30 210,130 270,130 C 320,130 340,70 370,70" />
+    <path class="linia magenta" pathLength="100" d="M 30,118 C 90,118 90,38 150,38 C 210,38 210,138 270,138 C 320,138 340,78 370,78" />
+    <path class="linia zolty"   pathLength="100" d="M 30,126 C 90,126 90,46 150,46 C 210,46 210,146 270,146 C 320,146 340,86 370,86" />
+</svg>
